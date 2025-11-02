@@ -7,3 +7,12 @@ output [31:0] jump_addr;
 //assign shifted_out = {pcplus4_for_jump[31:28], in_sequence, 2'b00}; 
 assign jump_addr = {pcplus1_for_jump[31:26],in_sequence};
 endmodule
+
+
+
+//ADDER IN BRANCH DATAPATH
+module add_in_branch(shifted_sign,pcplus1_for_branch, to_mux);
+input [31:0] shifted_sign, pcplus1_for_branch;
+output [31:0] to_mux;
+assign to_mux = shifted_sign + pcplus1_for_branch;
+endmodule
