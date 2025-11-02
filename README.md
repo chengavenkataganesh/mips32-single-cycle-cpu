@@ -5,7 +5,6 @@ Here is the **updated, final, professional README.md** optimized for Vivado user
 
 ---
 
-# ✅ **README.md — MIPS32 Single-Cycle CPU (Vivado Version)**
 
 ```md
 # MIPS32 Single-Cycle CPU  
